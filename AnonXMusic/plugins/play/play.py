@@ -29,7 +29,7 @@ from config import BANNED_USERS, lyrical
     filters.command(
         [
             "play",
-            "vplay",
+            "فيديو",
             "cplay",
             "cvplay",
             "playforce",
