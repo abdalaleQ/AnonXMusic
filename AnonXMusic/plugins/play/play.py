@@ -26,9 +26,11 @@ from config import BANNED_USERS, lyrical
 
 
 @app.on_message(
+
+    @app.on_message(
     filters.command(
         [
-            "play",
+            "تشغيل",
             "فيديو",
             "cplay",
             "cvplay",
@@ -36,7 +38,7 @@ from config import BANNED_USERS, lyrical
             "vplayforce",
             "cplayforce",
             "cvplayforce",
-        ]
+        ],""
     )
     & filters.group
     & ~BANNED_USERS
